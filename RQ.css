@@ -1,0 +1,39 @@
+body{
+    background: orange;
+}
+#wrapper{
+    position: relative;
+   
+}
+#quote-box{
+    width: 450px;
+    height: auto;
+    margin: 10% auto;
+    display: table;
+    background: white;
+    padding: 30px 40px;
+}
+#text{
+    font-size: 25px;
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+.quotes-author{
+    margin: 30px auto;
+    text-align: right;
+    font-size: 15px;
+}
+#new-quote{
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+#quote-box{
+    width: 80%;
+    padding: 20px 30px;
+}
+
+}
